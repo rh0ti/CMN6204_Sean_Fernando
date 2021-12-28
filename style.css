@@ -1,0 +1,51 @@
+/* My CSS Reset */
+*{
+	margin: 0;
+	padding: 0;
+	}
+
+*, *:after, *:before{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* MOBILE */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px; 
+    width: 50px;
+    height: 50px;
+    background:#707070;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+    
+/* MOBILE - Grid - Whole Webpage */
+
+#content{
+    display: grid;
+    grid-template-columns: 375px;
+    grid-template-rows: 812px 812px 812px 812px 812px 812px ;
+    grid-gap: 10px;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+#content >*{
+    background: rgb(255, 255, 255);         
+}
