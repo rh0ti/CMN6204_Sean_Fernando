@@ -267,13 +267,13 @@ ul li a{
         font-size: 45px;
         font-weight: lighter;
         position: absolute;
-        top: -55px;
+        top: -70px;
     }
 
 
     header .image-frame-transparent{
         background-color: rgba(226, 223, 223, 0.322);
-        width: 70%;
+        width: 75%;
         height: 70%;	
         display: flex;
         justify-content: center;
@@ -309,7 +309,7 @@ ul li a{
         color: #000000;
         font-weight: lighter;
         position: absolute;
-        top: 130px;
+        top: 155px;
     }
 
 
@@ -345,143 +345,6 @@ ul li a{
 
     @media screen and (max-width:1280px){
 
-        header{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-            position: relative;
-            
-        }
-    
-        /* Desktop - Navigation - Menu*/
-    
-        nav img{
-            height: 100px;
-        }
-    
-        .sidebar{
-            position: fixed;
-            top: 0;
-            left: -650px;
-            background: white;
-            opacity: 0.7;
-            width: 650px;
-            height: 100%;
-            transition: .3s;
-        }
-    
-        .active{
-            left: 0;
-        }
-    
-        ul{
-            margin:0;
-            padding: 20px 0;
-        }
-    
-        ul li{
-            list-style: none;
-        }
-    
-        ul li a{
-            padding: 30px 40px;
-            color: black;
-            display: block;
-            text-decoration: none;
-            font-size: 35px;
-      
-        }
-    
-        /* Desktop - Header */
-    
-        /* header .image-logo{
-            height: 70px;
-            position: relative;
-    
-        }  */
-    
-        header .welcome-subtitle{
-            font-family: 'Leonetta-Script';
-            font-size: 45px;
-            font-weight: lighter;
-            position: absolute;
-            top: -55px;
-        }
-    
-    
-        header .image-frame-transparent{
-            background-color: rgba(226, 223, 223, 0.322);
-            width: 70%;
-            height: 70%;	
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            
-            
-        }
-    
-        header .image-frame-grey{
-            background-color: #70707070;
-            width: 65%;
-            height: 60%;
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        iframe{
-            height: 85%;
-            width: 90%;
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-    
-        header .name-title{
-            font-family: 'Fulgate-Light';
-            font-size: 120px;
-            color: #000000;
-            font-weight: lighter;
-            position: absolute;
-            top: 130px;
-        }
-    
-    
-        header .name-subtitle{
-            font-family: 'Leonetta-Script';
-            font-size: 110px;
-            font-weight: lighter;
-            color: #000000;
-            position: absolute;
-            bottom: -70px;
-        }
-    
-    .line1{
-            height: 1px;
-            width: 35%;
-            background: #707070;
-            position: absolute;
-            top: 4.1%;
-            left: 7.5%;
-        }
-        
-    .line2{
-            height: 1px;
-            width: 35%;
-            background: #707070;
-            position: absolute;
-            top: 4.1%;
-            right: 7.5%;
-        }
-
-
-
 
 }
 
@@ -494,20 +357,32 @@ ul li a{
 
    #about{
     display: flex;
-    justify-content:space-between;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    min-height: 200%;
+    background-color: red;
+} 
+
+#about .title{
+    background-color: green;
+    height: 300px;
+    width: 100%;
+    border: #000000 solid 1px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     position: relative;
-    flex-direction: column;
-    min-height: 150%;
-} 
+
+}
 
 #about .line1{
     height: 1px;
     width: 35%;
     background: #707070;
     position: absolute;
-    top: 15.1%;
-    left: 7.5%;
+    top: 150px;
+
 }
 
 #about .line2{
@@ -515,17 +390,16 @@ ul li a{
     width: 35%;
     background: #707070;
     position: absolute;
-    top: 15.1%;
-    right: 7.5%;
+    top: 150px;
+
 }
 
 #about .line3{
-    height: 10%;
+    height: 35%;
     width: 1px;
     background: #707070;
     position: absolute;
-    top: 0%;
-    left: 50%;
+    top: -5%;
     
 }
 
@@ -534,53 +408,97 @@ ul li a{
     font-size: 80px;
     color: #000000;
     font-weight: lighter;
+    position: absolute;
+}
+
+#about .circle-text{
+    background-color: yellow;
+    height: 600px;
+    width: 100%;
+    border: blue solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 170%;
+
 }
 
 #about .circle-text1{
-    height: 550px;
-    position: relative;
-    top: 30%;
-
+    max-height: 500px;
+    position: absolute;
 }
 
 #about .circle-image-small{
     border-radius: 90%;
-    width: 80%;
-    height: 80%;
-    background-image: url(/images/portrait1.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    top: -60%;
-    left: 10%;
-
-}
-
-#about .about-text{
-    font-family: 'Fulgate-Light';
-    font-size: 30px;
-    position: relative;
-    top: 6%;
-    width: 55%;
-
-}
-
-/* #about .circle-text2{
-    position: relative;
-
-} */
-
-/* #about .circle-image-big{
-    border-radius: 90%;
-    width: 40%;
-    height: 20%;
+    min-width: 400px;
+    min-height: 400px;
     background-image: url(/images/portrait1.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
-    top: 10%;
 
 
-} */
+}
+
+ #about .about-text{
+    font-family: 'Fulgate-Light';
+    font-size: 30px;
+    background-color: orange;
+    max-width: 60%;
+    border: blue solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+} 
+
+ #about .story-text{
+    background-color: yellow;
+    border: blue solid 1px;
+    position: relative;
+    display: flex;
+
+    width: 100%;
+
+} 
+
+
+ #about .my-story{
+    border: brown solid 1px;
+    background-color: white;
+    width: 50%;
+
+
+} 
+
+ #about .circle-text2{
+    background-color: aqua;
+    border: pink solid 1px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+} 
+
+#about .circle-text-image{
+    border-radius: 90%;
+    width: 750px;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+
+}  
+
+#about .circle-image-big{
+    border-radius: 90%;
+    width: 600px;
+    height: 600px;
+    background-image: url(/images/portrait.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}  
