@@ -49,21 +49,18 @@ body{
     
 /* MOBILE - Grid - Whole Webpage */
 
-/* #content{
+ #content{
     display: grid;
     grid-template-columns: 375px;
     grid-template-rows: 812px 812px 812px 812px 812px 812px ;
     grid-gap: 10px;
     max-width: 375px;
     margin: 0 auto;
-    border: 1px solid black;
-} */
+} 
 
 #content >*{
     background: #F5F5F5;         
 }
-
-
 
 /*--------------------------MOBILE First Page - Header/Navigation/Sidebar----------------------------- */
 
@@ -213,7 +210,8 @@ ul li a{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 100vh;
+        min-height: 100vh;
+        position: relative;
         
     }
 
@@ -268,8 +266,8 @@ ul li a{
         font-family: 'Leonetta-Script';
         font-size: 45px;
         font-weight: lighter;
-        position: relative;
-        top:-55%; 
+        position: absolute;
+        top: -55px;
     }
 
 
@@ -287,17 +285,21 @@ ul li a{
 
     header .image-frame-grey{
         background-color: #70707070;
-        min-width: 90%;
-        min-height: 90%;
-        position: relative;
-        top:-10%;
+        width: 65%;
+        height: 60%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     iframe{
-        min-height: 85%;
-        min-width: 90%;
-        position: relative;
-        top:7%;
+        height: 85%;
+        width: 90%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -306,8 +308,8 @@ ul li a{
         font-size: 120px;
         color: #000000;
         font-weight: lighter;
-        position: relative;
-        top:-10%;
+        position: absolute;
+        top: 130px;
     }
 
 
@@ -316,8 +318,8 @@ ul li a{
         font-size: 110px;
         font-weight: lighter;
         color: #000000;
-        position: relative;
-
+        position: absolute;
+        bottom: -70px;
     }
 
 .line1{
@@ -345,114 +347,13 @@ ul li a{
 
 
 
-    header .welcome-subtitle{
-        font-family: 'Leonetta-Script';
-        font-size: 40px;
-        font-weight: lighter;
-        position: relative;
-        top:-40%; 
-    }
-
-
-    header .name-title{
-        font-family: 'Fulgate-Light';
-        font-size: 100px;
-        color: #000000;
-        font-weight: lighter;
-        position: relative;
-        top:-10%;
-    }
 
 
 }
 
-@media screen and (max-width:1200px){
 
 
-    header .welcome-subtitle{
-        font-family: 'Leonetta-Script';
-        font-size: 40px;
-        font-weight: lighter;
-        position: relative;
-        top:-73%; 
-    }
 
-
-    header .image-frame-transparent{
-        background-color: rgba(226, 223, 223, 0.322);
-        width: 70%;
-        height: 60%;	
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-
-    header .name-title{
-        font-family: 'Fulgate-Light';
-        font-size: 80px;
-        color: #000000;
-        font-weight: lighter;
-        position: relative;
-        top:-10%;
-    }
-
-
-    header .name-subtitle{
-        font-family: 'Leonetta-Script';
-        font-size: 90px;
-        font-weight: lighter;
-        color: #000000;
-        position: relative;
-
-    }
-
-
-}
-
-@media screen and (max-width:480px){
-
-    header .welcome-subtitle{
-        font-family: 'Leonetta-Script';
-        font-size: 40px;
-        font-weight: lighter;
-        position: relative;
-        top:-73%; 
-    }
-
-
-    header .image-frame-transparent{
-        background-color: rgba(226, 223, 223, 0.322);
-        width: 70%;
-        height: 60%;	
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-
-    header .name-title{
-        font-family: 'Fulgate-Light';
-        font-size: 50px;
-        color: #000000;
-        font-weight: lighter;
-        position: relative;
-        top:-10%;
-    }
-
-
-    header .name-subtitle{
-        font-family: 'Leonetta-Script';
-        font-size: 90px;
-        font-weight: lighter;
-        color: #000000;
-        position: relative;
-
-    }
-
-}
 
 
    /*--------------------------DESKTOP - Section ABOUT - Second Page ----------------------------- */
