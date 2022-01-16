@@ -1,0 +1,17 @@
+/* ---------------------------------MOBILE - Grid - Whole Webpage ------------------------------------*/
+
+#content{
+    display: grid;
+    grid-template-columns: 375px;
+    grid-template-rows: 812px 812px 812px 812px 812px 812px ;
+    grid-gap: 10px;
+    max-width: 375px;
+    margin: 0 auto;
+} 
+
+#content >*{
+    background: #F5F5F5;         
+}
+
+/*--------------------------MOBILE First Page - Header/Navigation/Sidebar----------------------------- */
+
