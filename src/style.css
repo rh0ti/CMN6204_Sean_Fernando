@@ -462,6 +462,10 @@ ul li a{
     background-color: white;
     width: 50%;
     height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }  
 
  #about .circle-text2{
@@ -477,8 +481,8 @@ ul li a{
 
 #about .circle-text-image{
     border-radius: 90%;
-    width: 750px;
-    height: 750px;
+    width: 700px;
+    height: 700px;
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -486,8 +490,8 @@ ul li a{
 
 #about .circle-image-big{
     border-radius: 90%;
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
     background-image: url(/images/portrait.jpg);
     background-position: center;
     background-size: cover;
@@ -495,14 +499,27 @@ ul li a{
 }    
 
 
+.my-story h2{
+    font-family: 'Leonetta-Script';
+    font-size: 110px;
+    font-weight: lighter;
+    color: #000000;
+    border: black solid 1px;
+    max-width: 500px;
+    margin-bottom: 20px;
+
+}
+
+.my-story p{
+    border: black solid 1px;
+    font-size: 25px;
+    font-display: block;
+    max-width: 500px;
+}
 
 
 
-
-
-
-
-
+   /*--------------------------DESKTOP - Section Lyrics - Third Page ----------------------------- */
 
 #lyrics{
     display: flex;
