@@ -3,7 +3,7 @@
 #content{
     display: grid;
     grid-template-columns: 375px;
-    grid-template-rows: 450px 1600px 812px 812px 812px 812px ;
+    grid-template-rows: 450px 1600px 1800px 812px 120px 512px ;
     grid-gap: 10px;
     max-width: 375px;
     margin: 0 auto;
@@ -23,7 +23,7 @@ header{
     max-height: 100vh;
     min-height: 900px;
     position: relative; 
-    border: solid 1px black;
+    /* border: solid 1px black; */
     
 }
 
@@ -59,7 +59,7 @@ header .welcome-subtitle{
 
     header .image-frame-transparent{
         background-color: rgba(226, 223, 223, 0.322);
-        width: 400px;
+        width: 375px;
         height: 213px;	
         display: flex;
         justify-content: center;
@@ -126,8 +126,8 @@ header .welcome-subtitle{
         display: flex;
         align-items: center;
         flex-direction: column;
-        border: solid 1px black; 
-        background-color: red; 
+        /* border: solid 1px black; 
+        background-color: red;  */
         position: relative;
         
     }
@@ -135,10 +135,10 @@ header .welcome-subtitle{
     /* Title About DIV */
     
     #about .title{
-        background-color: green;
+        /* background-color: green; */
         width: 375px;
         height: 60px;
-        border: #000000 solid 1px;
+        /* border: #000000 solid 1px; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -170,10 +170,9 @@ header .welcome-subtitle{
     /* Circle Text DIV / IMG */
     
       #about .circle-text{
-        background-color: yellow;
+        /* background-color: yellow; */
         min-height: 300px;
         width: 100%;
-        border: blue solid 1px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -197,11 +196,10 @@ header .welcome-subtitle{
      #about .about-text{
         font-family: 'Fulgate-Light';
         font-size: 20px;
-        background-color: orange;
+        /* background-color: orange; */
         max-width: 337px;
         margin-top: 10px;
-        margin-bottom: 50px;
-        border: blue solid 1px;
+        margin-bottom: 50px; 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -224,8 +222,8 @@ header .welcome-subtitle{
     
     
       #about .story-text{
-        background-color: yellow; 
-        border: blue solid 1px;
+        /* background-color: yellow; 
+        border: blue solid 1px; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -238,8 +236,8 @@ header .welcome-subtitle{
     /* Story Text - big circle and my story DIV */
     
      #about .my-story{
-        border: brown solid 1px;
-        background-color: white;
+        /* border: brown solid 1px;
+        background-color: white; */
         width: 337px;
         display: flex;
         justify-content: center;
@@ -254,8 +252,8 @@ header .welcome-subtitle{
     
      #about .circle-text2{
         height: 800px;
-        background-color: aqua;
-        border: pink solid 1px;
+        /* background-color: aqua;
+        border: pink solid 1px; */
         width: 50%;
         display: flex;
         justify-content: center;
@@ -307,3 +305,234 @@ header .welcome-subtitle{
         font-display: block;
         max-width: 500px;
     }
+
+/*--------------------------DESKTOP - Section Lyrics - Third Page ----------------------------- */
+
+/* Lyrics DIV */
+
+#lyrics{
+    /* background-color: mintcream;
+    border: solid 1px black; */
+    position: relative;
+}
+
+#lyrics .title{
+height: 100px;
+/* background-color: greenyellow; */
+display: flex;
+justify-content: flex-start;
+position: relative;
+}
+
+/* Title Lyrics DIV */
+
+#lyrics .title h1{
+    font-family: 'Fulgate-Light';
+    font-size: 38px;
+    color: #000000;
+    font-weight: lighter;
+    position: absolute;
+}
+
+/* About Lines */
+
+#lyrics .line1{
+    height: 1px;
+    width: 65%;
+    background: #707070;
+    position: absolute;
+    top: 30px;
+    left: 30%;
+}
+
+
+#lyrics .text-lyrics{
+    /* background-color: pink; */
+    height: 1900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-lyrics h1{
+    font-family: 'Leonetta-Script';
+    font-size: 50px;
+    font-weight: lighter;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-lyrics i{
+    font-size: 0.5em;
+    color: #CB5353;
+}
+
+.text-lyrics p{
+    font-family: 'Futura';
+    font-size: 20px;
+    color: #000000;
+    font-weight: medium;
+    width: 321px
+}
+
+
+#lyrics .text-meaning{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-meaning h1{
+    font-family: 'Leonetta-Script';
+    font-size: 60px;
+    font-weight: lighter;
+    color: #000000;
+}
+
+ #lyrics .text-meaning p{
+    font-family: 'Fulgate-Light';
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-bottom: 1600px;
+    max-width: 345px;
+    
+
+} 
+
+   /*--------------------------DESKTOP - Section WORK - Fourth Page ----------------------------- */
+
+/* Lyrics DIV */
+
+#work{
+    /* background-color: mintcream; 
+    border: solid 1px black; */
+    position: relative;
+}
+
+#work .title{
+height: 50px;
+/* background-color: greenyellow; */
+display: flex;
+justify-content: flex-end;
+position: relative;
+}
+
+/* Title Work DIV */
+
+#work .title h1{
+    font-family: 'Fulgate-Light';
+    font-size: 38px;
+    color: #000000;
+    font-weight: lighter;
+    position: absolute;
+}
+
+/* About Lines */
+
+#work .line1{
+    height: 1px;
+    width: 65%;
+    background: #707070;
+    position: absolute;
+    top: 30px;
+    left: 5%;
+}
+
+
+#work .songs{
+    /* background-color: rosybrown; */
+    height: 700px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.songs h1{
+    font-family: 'Leonetta-Script';
+    font-size: 60px;
+    font-weight: lighter;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*--------------------------DESKTOP - ANIMATION----------------------------- */
+
+.animation h1{
+
+    font-family: 'Futura';
+    font-size: 25px;
+    color: #000000;
+    font-weight: medium;
+}
+
+
+ /*--------------------------DESKTOP - Section STREAM - Fifth Page ----------------------------- */
+
+/* Stream DIV */
+
+#stream{
+    /* background-color: mintcream; 
+    border: solid 1px black; */
+    position: relative;
+}
+
+#stream .title{
+height: 100px;
+/* background-color: greenyellow;  */
+display: flex;
+justify-content: flex-start;
+position: relative;
+}
+
+/* Title Stream DIV */
+
+#stream .title h1{
+    font-family: 'Fulgate-Light';
+    font-size: 38px;
+    color: #000000;
+    font-weight: lighter;
+    position: absolute;
+}
+
+/* Stream Lines */
+
+#stream .line1{
+    height: 1px;
+    width: 65%;
+    background: #707070;
+    position: absolute;
+    top: 30px;
+    left: 30%;
+}
+
+#stream .social-media{
+    height: 100px;
+    display: block;
+
+}
+
+#stream .social-media span{
+    font-size: 9.5em; 
+    color: black;
+}
+
+
+
+ /*--------------------------DESKTOP - FOOTER ----------------------------- */
+
+ footer{
+     margin-top: 10px;
+     margin-bottom: 20px;
+     display: flex;
+     justify-content: space-around;
+     position: relative;
+ }
+
