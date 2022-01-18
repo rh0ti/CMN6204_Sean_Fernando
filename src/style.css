@@ -167,7 +167,7 @@ ul li a{
 /* --------------------------------------------------------------- Desktop --------------------------------------------------------------------------------------*/
 
 
-  @media screen and (min-width:736px){  
+  @media screen and (min-width:768px){  
 
 
     /* Desktop - Grid - Whole Webpage */ 
@@ -180,7 +180,7 @@ ul li a{
         max-width: 100vw;
         margin: 0 auto;
     } 
-  }
+  
 
 
 
@@ -324,6 +324,53 @@ ul li a{
         top: 95px;
     }
 
+    @media screen and (max-width:1300px){  
+        header .name-title{
+            font-family: 'Fulgate-Light';
+            font-size: 110px;
+            color: #000000;
+            font-weight: lighter;
+            position: absolute;
+            top: 100px;
+        }
+     }
+
+     @media screen and (max-width:1200px){  
+        header .name-title{
+            font-family: 'Fulgate-Light';
+            font-size: 100px;
+            color: #000000;
+            font-weight: lighter;
+            position: absolute;
+            top: 110px;
+        }
+     }
+
+     @media screen and (max-width:1090px){ 
+
+        header .name-title{
+            font-family: 'Fulgate-Light';
+            font-size: 80px;
+            color: #000000;
+            font-weight: lighter;
+            position: absolute;
+            top: 130px;
+        }
+      }
+
+      @media screen and (max-width:880px){ 
+
+        header .name-title{
+            font-family: 'Fulgate-Light';
+            font-size: 70px;
+            color: #000000;
+            font-weight: lighter;
+            position: absolute;
+            top: 140px;
+        }
+      }
+
+
     /* Subtitle - Bye Bye */
 
     header .name-subtitle{
@@ -404,6 +451,28 @@ ul li a{
     
 }
 
+@media screen and (max-width:1400px){ 
+
+    #about .line1{
+        height: 1px;
+        width: 25%;
+        background: #707070;
+        position: absolute;
+        top: 150px;
+    
+    }
+
+    #about .line2{
+        height: 1px;
+        width: 25%;
+        background: #707070;
+        position: absolute;
+        top: 150px;
+    
+    }
+    
+  }
+
 /* Circle Text DIV / IMG */
 
   #about .circle-text{
@@ -466,6 +535,8 @@ ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
 }  
 
  #about .circle-text2{
@@ -498,6 +569,75 @@ ul li a{
     position: absolute;
 }    
 
+@media screen and (max-width:1500px){  
+
+    #about .circle-text-image{
+        border-radius: 90%;
+        width: 600px;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }   
+    
+    #about .circle-image-big{
+        border-radius: 90%;
+        width: 450px;
+        height: 450px;
+        background-image: url(/images/portrait.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }    
+
+}
+
+@media screen and (max-width:1200px){  
+
+    #about .circle-text-image{
+        border-radius: 90%;
+        width: 450px;
+        height: 450px;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }   
+    
+    #about .circle-image-big{
+        border-radius: 90%;
+        width: 350px;
+        height: 350px;
+        background-image: url(/images/portrait.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }    
+
+}
+
+@media screen and (max-width:915px){  
+
+    #about .circle-text-image{
+        border-radius: 90%;
+        width: 350px;
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }   
+    
+    #about .circle-image-big{
+        border-radius: 90%;
+        width: 250px;
+        height: 250px;
+        background-image: url(/images/portrait.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }    
+
+}
+
 
 .my-story h2{
     font-family: 'Leonetta-Script';
@@ -507,8 +647,41 @@ ul li a{
     /* border: black solid 1px; */
     max-width: 500px;
     margin-bottom: 20px;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+@media screen and (max-width:1090px){ 
+
+    .my-story h2{
+        font-family: 'Leonetta-Script';
+        font-size: 90px;
+        font-weight: lighter;
+        color: #000000;
+        /* border: black solid 1px; */
+        max-width: 500px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+  }
+
+  @media screen and (max-width:915px){ 
+
+    .my-story h2{
+        font-family: 'Leonetta-Script';
+        font-size: 70px;
+        font-weight: lighter;
+        color: #000000;
+        /* border: black solid 1px; */
+        max-width: 500px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+  }
 
 .my-story p{
     /* border: black solid 1px; */
@@ -554,12 +727,24 @@ position: relative;
 
 #lyrics .line1{
     height: 1px;
-    width: 65vw;
+    width: 65%;
     background: #707070;
     position: absolute;
     top: 250px;
-    left: 500px;
+    left: 30%;
 }
+
+@media screen and (max-width:1100px){ 
+
+    #lyrics .line1{
+        height: 1px;
+        width: 60%;
+        background: #707070;
+        position: absolute;
+        top: 250px;
+        left: 35%;
+    }
+  }
 
 #lyrics .text-lyrics{
     /* background-color: pink; */
@@ -596,7 +781,6 @@ position: relative;
 
 
 #lyrics .text-meaning{
-    /* background-color: rosybrown; */
     height: 700px;
     display: flex;
     justify-content: center;
@@ -613,15 +797,17 @@ position: relative;
     margin-bottom: 50px;
 }
 
-.text-meaning p{
+ #lyrics .text-meaning p{
     font-family: 'Fulgate-Light';
-    font-size: 40px;
-    color: #000000;
+    font-size: 35px;
+    color: black;
     font-weight: lighter;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 1300px
-}
+    max-width: 80%;
+    
+
+} 
 
    /*--------------------------DESKTOP - Section WORK - Fourth Page ----------------------------- */
 
@@ -665,6 +851,18 @@ position: relative;
     right: 500px;
 }
 
+@media screen and (max-width:1500px){ 
+
+    #work .line1{
+        height: 1px;
+        width: 55vw;
+        background: #707070;
+        position: absolute;
+        top: 250px;
+        right: 500px;
+    }
+  }
+
 #work .songs{
     /* background-color: rosybrown; */
     height: 700px;
@@ -683,15 +881,6 @@ position: relative;
     margin-bottom: 50px;
 }
 
-.text-meaning p{
-    font-family: 'Fulgate-Light';
-    font-size: 40px;
-    color: #000000;
-    font-weight: lighter;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 1300px
-}
 
 /*--------------------------DESKTOP - ANIMATION----------------------------- */
 
@@ -706,6 +895,74 @@ position: relative;
     width: 100vw;
 
 }
+
+@media screen and (max-width:2000px){ 
+
+
+.animation h1{
+
+    font-family: 'Futura';
+    font-size: 110px;
+    color: #000000;
+    font-weight: medium;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100vw;
+
+}
+
+}
+
+@media screen and (max-width:1725px){ 
+
+
+    .animation h1{
+    
+        font-family: 'Futura';
+        font-size: 85px;
+        color: #000000;
+        font-weight: medium;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100vw;
+    
+    }
+    
+    }
+
+    @media screen and (max-width:1400px){ 
+
+
+        .animation h1{
+        
+            font-family: 'Futura';
+            font-size: 60px;
+            color: #000000;
+            font-weight: medium;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 100vw;
+        
+        }
+        
+    }
+
+    @media screen and (max-width:950px){ 
+
+
+        .animation h1{
+        
+            font-family: 'Futura';
+            font-size: 40px;
+            color: #000000;
+            font-weight: medium;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 100vw;
+        
+        }
+        
+     }
 
  /*--------------------------DESKTOP - Section STREAM - Fifth Page ----------------------------- */
 
@@ -742,12 +999,27 @@ position: relative;
 
 #stream .line1{
     height: 1px;
-    width: 65vw;
+    width: 65%;
     background: #707070;
     position: absolute;
     top: 250px;
-    left: 500px;
+    left: 30%;
 }
+
+@media screen and (max-width:1500px){ 
+
+
+    #stream .line1{
+        height: 1px;
+        width: 55%;
+        background: #707070;
+        position: absolute;
+        top: 250px;
+        left: 40%;
+    }
+    
+ }
+
 
 #stream .social-media{
     height: 400px;
@@ -767,3 +1039,4 @@ position: relative;
      position: relative;
  }
 
+}
