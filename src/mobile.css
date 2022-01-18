@@ -3,7 +3,7 @@
 #content{
     display: grid;
     grid-template-columns: 375px;
-    grid-template-rows: 812px 812px 812px 812px 812px 812px ;
+    grid-template-rows: 450px 1600px 812px 812px 812px 812px ;
     grid-gap: 10px;
     max-width: 375px;
     margin: 0 auto;
@@ -11,7 +11,299 @@
 
 #content >*{
     background: #F5F5F5;         
-}
+} 
 
 /*--------------------------MOBILE First Page - Header/Navigation/Sidebar----------------------------- */
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 100vh;
+    min-height: 900px;
+    position: relative; 
+    border: solid 1px black;
+    
+}
+
+header .welcome-subtitle{
+    font-family: 'Leonetta-Script';
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+    top: -395px;
+}
+
+    /* Navgigation Lines */
+
+    .line1{
+        height: 1px;
+        width: 20%;
+        background: #707070;
+        position: absolute;
+        top: -50%;
+        left: 15%;
+    }
+    
+    .line2{
+        height: 1px;
+        width: 20%;
+        background: #707070;
+        position: absolute;
+        top: -50%;
+        right: 15%;
+    }
+
+    /* First Transparent DIV */
+
+    header .image-frame-transparent{
+        background-color: rgba(226, 223, 223, 0.322);
+        width: 400px;
+        height: 213px;	
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        position: absolute;
+        top: 15%;
+    }
+
+    /*Second Transparent DIV */
+
+    header .image-frame-grey{
+        background-color: #70707070;
+        width: 363px;
+        height: 185px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Youtube Video */
+
+    iframe{
+        height: 156px;
+        width: 90%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Title Name - Sean Fernando */
+
+    header .name-title{
+        font-family: 'Fulgate-Light';
+        font-size: 38px;
+        color: #000000;
+        font-weight: lighter;
+        position: absolute;
+        top: -30px;
+    }
+    
+    
+    /* Subtitle - Bye Bye */
+
+    header .name-subtitle{
+        font-family: 'Leonetta-Script';
+        font-size: 60px;
+        font-weight: lighter;
+        color: #000000;
+        position: absolute;
+        bottom: -50px;
+    }
+    
+    
+    
+       /*--------------------------DESKTOP - Section ABOUT - Second Page ----------------------------- */
+    
+       /* About DIV */
+    
+    
+    #about{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: solid 1px black; 
+        background-color: red; 
+        position: relative;
+        
+    }
+    
+    /* Title About DIV */
+    
+    #about .title{
+        background-color: green;
+        width: 375px;
+        height: 60px;
+        border: #000000 solid 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+    }
+    
+    /* Title Name - About */
+    
+    #about .title h1{
+        font-family: 'Fulgate-Light';
+        font-size: 38px;
+        color: #000000;
+        font-weight: lighter;
+    }
+    
+    /* About Lines */
+    
+   
+    #about .line3{
+        height: 50px;
+        width: 1px;
+        background: #707070;
+        position: absolute;
+        top: -80%;
+    }
+    
+
+    /* Circle Text DIV / IMG */
+    
+      #about .circle-text{
+        background-color: yellow;
+        min-height: 300px;
+        width: 100%;
+        border: blue solid 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    
+      #about .circle-text1{
+        height: 250px;
+        position: relative;
+    }  
+    
+     #about .circle-image-small{
+        border-radius: 90%;
+        min-width: 200px;
+        height: 200px;
+        background-image: url(/images/portrait1.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }  
+    
+     #about .about-text{
+        font-family: 'Fulgate-Light';
+        font-size: 20px;
+        background-color: orange;
+        max-width: 337px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        border: blue solid 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }  
+
+    #about .line1{
+        height: 60px;
+        width: 1px;
+        background: #707070;
+        position: absolute;
+        top: 600px;
+        left: 49.8%;
+    
+    }
+    
+    #about .line2{
+        display: none;
+    }
+    
+    
+      #about .story-text{
+        background-color: yellow; 
+        border: blue solid 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        height: 200px;
+        width: 100%;
+    
+    }  
+    
+    /* Story Text - big circle and my story DIV */
+    
+     #about .my-story{
+        border: brown solid 1px;
+        background-color: white;
+        width: 337px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+        top: 610px;
+
+    }  
+    
+     #about .circle-text2{
+        height: 800px;
+        background-color: aqua;
+        border: pink solid 1px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+    
+    }  
+    
+    #about .circle-text-image{
+        border-radius: 90%;
+        width: 350px;
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 700px;
+    }   
+    
+    #about .circle-image-big{
+        border-radius: 90%;
+        width: 280px;
+        height: 280px;
+        background-image: url(/images/portrait.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 735px;
+    }    
+    
+    
+    
+    .my-story h2{
+        font-family: 'Leonetta-Script';
+        font-size: 60px;
+        font-weight: lighter;
+        color: #000000;
+        /* border: black solid 1px; */
+        max-width: 500px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+
+    
+    .my-story p{
+        /* border: black solid 1px; */
+        font-size: 20px;
+        font-display: block;
+        max-width: 500px;
+    }
