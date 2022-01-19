@@ -30,7 +30,7 @@ header{
 header .welcome-subtitle{
     font-family: 'Leonetta-Script';
     font-size: 40px;
-    /* font-weight: lighter; */
+    font-weight: lighter;
     position: absolute;
     top: -388px;
 }
@@ -160,11 +160,11 @@ header .welcome-subtitle{
     
    
     #about .line3{
-        height: 50px;
+        height: 70px;
         width: 1px;
         background: #707070;
         position: absolute;
-        top: -110%;
+        top: -140%;
     }
     
 
