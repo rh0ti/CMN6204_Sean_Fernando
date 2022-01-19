@@ -730,7 +730,7 @@ position: relative;
     width: 65%;
     background: #707070;
     position: absolute;
-    top: 250px;
+    top: 260px;
     left: 30%;
 }
 
@@ -760,7 +760,7 @@ position: relative;
     font-size: 100px;
     font-weight: lighter;
     color: #000000;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 50px;
 }
 
@@ -834,10 +834,10 @@ position: relative;
     font-size: 80px;
     color: #000000;
     font-weight: lighter;
-    margin-right: 15%;
     margin-top: 200px;
     /* border: solid 1px black; */
     position: absolute;
+    right: 15%;
 }
 
 /* About Lines */
