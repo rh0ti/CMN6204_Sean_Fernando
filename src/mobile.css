@@ -3,7 +3,7 @@
 #content{
     display: grid;
     grid-template-columns: 375px;
-    grid-template-rows: 550px 1600px 1800px 812px 120px 512px ;
+    grid-template-rows: 600px 1600px 1800px 812px 120px 512px ;
     grid-gap: 10px;
     max-width: 375px;
     margin: 0 auto;
@@ -42,7 +42,7 @@ header .welcome-subtitle{
         width: 30%;
         background: #707070;
         position: absolute;
-        top: -46.5%;
+        top: -60.5%;
         left: 3%;
     }
     
@@ -51,8 +51,16 @@ header .welcome-subtitle{
         width: 30%;
         background: #707070;
         position: absolute;
-        top: -46.5%;
+        top: -60.5%;
         right: 3%;
+    }
+
+     .line3{
+        height: 50px;
+        width: 1px;
+        background: #707070;
+        position: absolute;
+        top: -45%;
     }
 
     /* First Transparent DIV */
@@ -66,7 +74,7 @@ header .welcome-subtitle{
         align-items: center;
         flex-direction: column; 
         position: absolute;
-        top: 19%;
+        top: 23%;
     }
 
     /*Second Transparent DIV */
@@ -163,7 +171,7 @@ header .welcome-subtitle{
         width: 1px;
         background: #707070;
         position: absolute;
-        top: -95%;
+        top: -110%;
     }
     
 
