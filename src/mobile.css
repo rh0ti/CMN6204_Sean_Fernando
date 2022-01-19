@@ -42,8 +42,8 @@ header .welcome-subtitle{
         width: 30%;
         background: #707070;
         position: absolute;
-        top: -44.5%;
-        left: 0%;
+        top: -46.5%;
+        left: 3%;
     }
     
     .line2{
@@ -51,8 +51,8 @@ header .welcome-subtitle{
         width: 30%;
         background: #707070;
         position: absolute;
-        top: -44.5%;
-        right: 0%;
+        top: -46.5%;
+        right: 3%;
     }
 
     /* First Transparent DIV */
@@ -60,13 +60,13 @@ header .welcome-subtitle{
     header .image-frame-transparent{
         background-color: rgba(226, 223, 223, 0.322);
         width: 375px;
-        height: 250px;	
+        height: 260px;	
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column; 
         position: absolute;
-        top: 18%;
+        top: 19%;
     }
 
     /*Second Transparent DIV */
@@ -96,11 +96,11 @@ header .welcome-subtitle{
 
     header .name-title{
         font-family: 'Fulgate-Light';
-        font-size: 38px;
+        font-size: 45px;
         color: #000000;
         font-weight: lighter;
         position: absolute;
-        top: -30px;
+        top: -35px;
     }
     
     
