@@ -55,13 +55,6 @@ header .welcome-subtitle{
         right: 3%;
     }
 
-     .line3{
-        height: 50px;
-        width: 1px;
-        background: #707070;
-        position: absolute;
-        top: -45%;
-    }
 
     /* First Transparent DIV */
 
@@ -104,11 +97,11 @@ header .welcome-subtitle{
 
     header .name-title{
         font-family: 'Fulgate-Light';
-        font-size: 45px;
+        font-size: 50px;
         color: #000000;
         font-weight: lighter;
         position: absolute;
-        top: -35px;
+        top: -100px;
     }
     
     
