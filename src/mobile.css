@@ -336,8 +336,20 @@ header .welcome-subtitle{
       #about .circle-text1{
         height: 250px;
         position: relative;
+        animation: rotateImage 20s linear infinite;
     }  
     
+    @keyframes rotateImage{
+        0%{
+        transform: rotate(360deg);
+     }
+        100%{
+        transform:rotate(0deg);
+        }
+    }
+
+
+
      #about .circle-image-small{
         border-radius: 90%;
         min-width: 200px;
@@ -413,9 +425,9 @@ header .welcome-subtitle{
         display: flex;
         justify-content: center;
         align-items: center;
-  
-    
     }  
+
+
     
     #about .circle-text-image{
         border-radius: 90%;
@@ -425,7 +437,17 @@ header .welcome-subtitle{
         background-size: cover;
         position: absolute;
         top: 700px;
+        animation: rotateImage 20s linear infinite;
     }   
+
+    @keyframes rotateImage{
+        0%{
+        transform: rotate(360deg);
+    }
+        100%{
+        transform:rotate(0deg);
+    }
+}
     
     #about .circle-image-big{
         border-radius: 90%;
