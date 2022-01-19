@@ -33,23 +33,16 @@ body{
     background-color: #F5F5F5;
 }
 
-#topBtn{
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    font-size: 22px; 
-    width: 50px;
-    height: 50px;
-    background:#707070;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+
+
+
 
 header{
     display: flex;
     justify-content: center;
 }
+
+/* ---------------------------------------------------- Navigation ----------------------------------------------------*/
 
 header nav{
     height:100px;
@@ -163,6 +156,21 @@ ul li a{
             transform:rotate(-45deg)  
 }
 
+/* Button to Top */
+
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px; 
+    width: 50px;
+    height: 50px;
+    background:#707070;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
  
 /* --------------------------------------------------------------- Desktop --------------------------------------------------------------------------------------*/
 
@@ -183,52 +191,7 @@ ul li a{
   
 
 
-
-
 /* -------------------------------------------------- DESKTOP - Header/Sidebar/Navigation - First Page ------------------------------------------------------------*/
-
-
-/* Splash Screen */
-
-.intro{
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #161616;
-    transition: 1s;
-}
-
-.intro .logo-header{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-}
-
-.intro .logo{
-    position: relative;
-    display: inline-block;
-    bottom: -20px;
-    opacity: 0;
-
-}
-
-.intro .logo.active{
-    bottom:0;
-    opacity: 1;
-    transition: ease-in-out 0.5s;
-
-} 
-
-.intro .logo.fade{
-    bottom: 150px;
-    opacity: 0;
-    transition: ease-in-out 0.5s;
-} 
 
 
     header{
@@ -240,7 +203,6 @@ ul li a{
         min-height: 900px;
         position: relative; 
         /* border: solid 1px black; */
-        
     }
 
     /* Desktop - Navigation - Menu*/
@@ -290,36 +252,7 @@ ul li a{
 
     }  */
 
-    /* Navgigation Name - Welcome */
 
-    header .welcome-subtitle{
-        font-family: 'Leonetta-Script';
-        font-size: 45px;
-        font-weight: lighter;
-        position: absolute;
-        top: -90px;
-    }
-
-    
-    /* Navgigation Lines */
-
-    .line1{
-        height: 1px;
-        width: 35%;
-        background: #707070;
-        position: absolute;
-        top: 4.1%;
-        left: 7.5%;
-    }
-    
-    .line2{
-        height: 1px;
-        width: 35%;
-        background: #707070;
-        position: absolute;
-        top: 4.1%;
-        right: 7.5%;
-    }
 
     /* First Transparent DIV */
 
@@ -354,6 +287,37 @@ ul li a{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    /* Navgigation Name - Welcome */
+
+    header .welcome-subtitle{
+        font-family: 'Leonetta-Script';
+        font-size: 45px;
+        font-weight: lighter;
+        position: absolute;
+        top: 0px;
+    }
+
+    
+    /* Navgigation Lines */
+
+    .line1{
+        height: 1px;
+        width: 35%;
+        background: #707070;
+        position: absolute;
+        top: 4.1%;
+        left: 7.5%;
+    }
+    
+    .line2{
+        height: 1px;
+        width: 35%;
+        background: #707070;
+        position: absolute;
+        top: 4.1%;
+        right: 7.5%;
     }
 
     /* Title Name - Sean Fernando */
@@ -425,9 +389,51 @@ ul li a{
         bottom: -70px;
     }
 
+        /* ---------------------------------------------------- Splash Screen ----------------------------------------------------*/
+
+.intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    transition: 1s;
+}
+
+.logo-header{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+    font-size: 120px;
+
+}
+
+.logo.active{
+    bottom:0;
+    opacity: 1;
+    transition: ease-in-out 1.0s;
+} 
+
+.logo.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 1.0s;
+} 
 
 
-   /*--------------------------DESKTOP - Section ABOUT - Second Page ----------------------------- */
+
+/*--------------------------DESKTOP - Section ABOUT - Second Page ----------------------------- */
 
    /* About DIV */
 

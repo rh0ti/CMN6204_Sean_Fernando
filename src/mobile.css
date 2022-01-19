@@ -181,34 +181,6 @@ header{
     
 }
 
-header .welcome-subtitle{
-    font-family: 'Leonetta-Script';
-    font-size: 40px;
-    font-weight: lighter;
-    position: absolute;
-    top: -388px;
-}
-
-    /* Navgigation Lines */
-
-    .line1{
-        height: 1px;
-        width: 30%;
-        background: #707070;
-        position: absolute;
-        top: -60.5%;
-        left: 3%;
-    }
-    
-    .line2{
-        height: 1px;
-        width: 30%;
-        background: #707070;
-        position: absolute;
-        top: -60.5%;
-        right: 3%;
-    }
-
 
     /* First Transparent DIV */
 
@@ -246,6 +218,34 @@ header .welcome-subtitle{
         justify-content: center;
         align-items: center;
     }
+
+    header .welcome-subtitle{
+        font-family: 'Leonetta-Script';
+        font-size: 40px;
+        font-weight: lighter;
+        position: absolute;
+        top: -75%;
+    }
+    
+        /* Navgigation Lines */
+    
+        .line1{
+            height: 1px;
+            width: 30%;
+            background: #707070;
+            position: absolute;
+            top: -60.5%;
+            left: 3%;
+        }
+        
+        .line2{
+            height: 1px;
+            width: 30%;
+            background: #707070;
+            position: absolute;
+            top: -60.5%;
+            right: 3%;
+        }
 
     /* Title Name - Sean Fernando */
 
