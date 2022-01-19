@@ -724,7 +724,10 @@ position: relative;
      margin-top: 10px;
      margin-bottom: 20px;
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
      position: relative;
  }
 
+footer .logo, .portfolio{
+    display: none;
+}
