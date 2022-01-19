@@ -3,7 +3,7 @@
 #content{
     display: grid;
     grid-template-columns: 375px;
-    grid-template-rows: 450px 1600px 1800px 812px 120px 512px ;
+    grid-template-rows: 490px 1600px 1800px 812px 120px 512px ;
     grid-gap: 10px;
     max-width: 375px;
     margin: 0 auto;
@@ -32,7 +32,7 @@ header .welcome-subtitle{
     font-size: 30px;
     font-weight: lighter;
     position: absolute;
-    top: -395px;
+    top: -380px;
 }
 
     /* Navgigation Lines */
@@ -42,7 +42,7 @@ header .welcome-subtitle{
         width: 20%;
         background: #707070;
         position: absolute;
-        top: -50%;
+        top: -35%;
         left: 15%;
     }
     
@@ -51,7 +51,7 @@ header .welcome-subtitle{
         width: 20%;
         background: #707070;
         position: absolute;
-        top: -50%;
+        top: -35%;
         right: 15%;
     }
 
@@ -60,7 +60,7 @@ header .welcome-subtitle{
     header .image-frame-transparent{
         background-color: rgba(226, 223, 223, 0.322);
         width: 375px;
-        height: 213px;	
+        height: 250px;	
         display: flex;
         justify-content: center;
         align-items: center;
@@ -74,7 +74,7 @@ header .welcome-subtitle{
     header .image-frame-grey{
         background-color: #70707070;
         width: 363px;
-        height: 185px;
+        height: 220px;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -84,7 +84,7 @@ header .welcome-subtitle{
     /* Youtube Video */
 
     iframe{
-        height: 156px;
+        height: 196px;
         width: 90%;
         position: absolute;
         display: flex;
@@ -359,7 +359,6 @@ position: relative;
     font-size: 50px;
     font-weight: lighter;
     color: #000000;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -378,7 +377,7 @@ position: relative;
 
 
 #lyrics .text-meaning{
-    height: 700px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,7 +405,7 @@ position: relative;
 
    /*--------------------------DESKTOP - Section WORK - Fourth Page ----------------------------- */
 
-/* Lyrics DIV */
+/* Work DIV */
 
 #work{
     /* background-color: mintcream; 
