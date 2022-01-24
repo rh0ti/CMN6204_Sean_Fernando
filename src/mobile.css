@@ -288,7 +288,7 @@ header{
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: #ffffff;
+        color: black;
     }
     
     .logo{
@@ -296,7 +296,7 @@ header{
         display: inline-block;
         bottom: -20px;
         opacity: 0;
-        font-size: 80px;
+        font-size: 50px;
     
     }
     
