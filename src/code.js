@@ -89,3 +89,4 @@ new hoverEffect({
   image2: '/images/bw2.png',
   displacementImage: '/images/diss.png'
 });
+
