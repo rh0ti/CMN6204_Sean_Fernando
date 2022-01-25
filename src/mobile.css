@@ -388,6 +388,15 @@ header{
         }
     }
 
+    #about .distortion{
+    display: none;
+    }
+
+    #about .distortion2{
+        min-width: 400px;
+        height: 400px;
+        position: absolute;
+    }
 
 
      #about .circle-image-small{

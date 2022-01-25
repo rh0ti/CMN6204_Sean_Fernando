@@ -1,8 +1,8 @@
 //-------------------------------------------------------------- Intro ---------------------------------------------------------------//
 
-let intro = document.querySelector('.intro');
-let logo = document.querySelector('.logo-header');
-let logoSpan = document.querySelectorAll('.logo');
+const intro = document.querySelector('.intro');
+const logo = document.querySelector('.logo-header');
+const logoSpan = document.querySelectorAll('.logo');
 
 window.addEventListener('DOMContentLoaded', ()=>{
 
@@ -81,11 +81,19 @@ $(document).ready(function(){
 
 //-------------------------------------------------------------- Hover Effect ---------------------------------------------------------------//
 
+
 new hoverEffect({
-  parent: document.querySelector('.distortion'),
+  parent: document.querySelector('#about .distortion'),
   intensity: 0.2,
-  image1: '/images/bw1.jpg',
-  image2: '/images/bw2.jpg',
-  displacementImage: './images/diss.png'
+  image1: '/images/bw1.png',
+  image2: '/images/bw2.png',
+  displacementImage: '/images/diss.png'
 });
 
+new hoverEffect({
+  parent: document.querySelector('#about .distortion2'),
+  intensity: 0.2,
+  image1: '/images/bw1.png',
+  image2: '/images/bw2.png',
+  displacementImage: '/images/diss.png'
+});
