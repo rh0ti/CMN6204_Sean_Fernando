@@ -387,28 +387,14 @@ header{
         transform:rotate(0deg);
         }
     }
+    
 
     #about .distortion{
-    display: none;
-    }
-
-    #about .distortion2{
-        min-width: 400px;
-        height: 400px;
-        position: absolute;
-    }
-
-
-     #about .circle-image-small{
-        border-radius: 90%;
         min-width: 200px;
         height: 200px;
-        background-image: url(/images/portrait1.jpg);
-        background-position: center;
-        background-size: cover;
         position: absolute;
-    }  
-    
+    }
+
      #about .about-text{
         font-family: 'Fulgate-Light';
         font-size: 20px;

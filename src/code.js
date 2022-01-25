@@ -89,11 +89,3 @@ new hoverEffect({
   image2: '/images/bw2.png',
   displacementImage: '/images/diss.png'
 });
-
-new hoverEffect({
-  parent: document.querySelector('#about .distortion2'),
-  intensity: 0.2,
-  image1: '/images/bw1.png',
-  image2: '/images/bw2.png',
-  displacementImage: '/images/diss.png'
-});
