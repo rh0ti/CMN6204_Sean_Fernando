@@ -592,11 +592,22 @@ ul li a{
     }
 }
 
+#about .distortion{
+    border-radius: 90%;
+    min-width: 400px;
+    height: 400px;
+    /* background-image: url(/images/bw1.jpg); 
+    background-color: brown;
+    background-position: center;
+    background-size: cover; */
+    position: absolute;
+}
+
  #about .circle-image-small{
     border-radius: 90%;
     min-width: 400px;
     height: 400px;
-    background-image: url(/images/portrait1.jpg);
+    /* background-image: url(/images/portrait1.jpg); */
     background-position: center;
     background-size: cover;
     position: absolute;
