@@ -387,14 +387,21 @@ header{
         transform:rotate(0deg);
         }
     }
-    
 
     #about .distortion{
-        min-width: 200px;
-        height: 200px;
-        position: absolute;
+    display: none;
     }
 
+     #about .circle-image-small{
+        border-radius: 90%;
+        min-width: 200px;
+        height: 200px;
+        background-image: url(/images/bw1.png);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }  
+    
      #about .about-text{
         font-family: 'Fulgate-Light';
         font-size: 20px;
