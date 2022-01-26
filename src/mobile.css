@@ -759,11 +759,11 @@ position: relative;
    height: 100%;
    line-height: 140px;
    font-size: 80px;
-   animation: textloop 20s linear infinite;
+   animation: textloop 5s linear infinite;
 }
 
 .animation2 span {
-   animation-delay: 10s;
+   animation-delay: 5s;
 }
 @keyframes textloop {
    0% {
