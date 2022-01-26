@@ -90,3 +90,14 @@ new hoverEffect({
   displacementImage: '/images/diss.png'
 });
 
+//-------------------------------------------------------------- GSAP Animation ---------------------------------------------------------------//
+
+var tl = gsap.timeline();
+tl.to(".welcome-subtitle",{duration: 4.2, opacity: 0, ease: "slow"})
+  .to(".welcome-subtitle",{duration: 1.5 ,opacity: 1 , ease: "slow"},)
+  .to(".name-title",{duration: 2 ,opacity: 0 , ease: "slow"},"-=3.2")
+  .to(".name-title",{duration: 1 ,opacity: 1 , ease: "slow"})
+  .to(".name-subtitle",{opacity: 0 , ease: "slow"},"-=4")
+  .to(".name-subtitle",{duration: 2 ,opacity: 1 , ease: "slow"});
+
+
