@@ -471,7 +471,6 @@ header{
     }
     
     
-    
     #about .line2{
         display: none;
     }
@@ -519,8 +518,8 @@ header{
     
     #about .circle-text-image{
         border-radius: 90%;
-        width: 275px;
-        height: 275px;
+        width: 250px;
+        height: 250px;
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -540,19 +539,40 @@ header{
     
     #about .circle-image-big{
         border-radius: 90%;
-        width: 220px;
-        height: 220px;
+        width: 200px;
+        height: 200px;
         background-image: url(/images/sean2.jpg);
         background-position: top;
         background-size: cover;
         position: absolute;
-        top: 727px;
+        top: 724px;
         transition: 1s;
         opacity: 0;
     }
     #about .circle-image-big[data-scroll="in"]{
         opacity: 1;
         transition-delay: 1.2s;
+    }
+
+
+    #about .line4{
+        height: 60px;
+        width: 1px;
+        background: #707070;
+        position: absolute;
+        top: 980px;
+        left: 49.8%;
+        transition: 0.5s;
+        transform-origin:top;
+        transform: scaleY(0);
+    
+}
+
+    #about .line4[data-scroll="in"]{
+
+    transform: scaleY(1);
+    transition-delay: 1s;
+
     }
     
     .my-story h2{
@@ -562,7 +582,7 @@ header{
         color: #000000;
         /* border: black solid 1px; */
         max-width: 500px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-left: 20px;
         margin-right: 20px;
         transition: 1s;
@@ -571,7 +591,7 @@ header{
     
     .my-story h2[data-scroll="in"]{
         opacity: 1;
-        transition-delay: 1s;
+        transition-delay: 1.3s;
     }
     
     .my-story p{
