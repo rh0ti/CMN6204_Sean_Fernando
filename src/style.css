@@ -1354,7 +1354,7 @@ position: relative;
 
 #stream .social-media[data-scroll="in"]{
     opacity: 1;
-    transition-delay: 1s;
+    transition-delay: 1.3s;
 }
     
 
