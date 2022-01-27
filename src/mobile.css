@@ -519,8 +519,8 @@ header{
     
     #about .circle-text-image{
         border-radius: 90%;
-        width: 350px;
-        height: 350px;
+        width: 275px;
+        height: 275px;
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -540,13 +540,13 @@ header{
     
     #about .circle-image-big{
         border-radius: 90%;
-        width: 280px;
-        height: 280px;
+        width: 220px;
+        height: 220px;
         background-image: url(/images/sean2.jpg);
         background-position: top;
         background-size: cover;
         position: absolute;
-        top: 735px;
+        top: 727px;
         transition: 1s;
         opacity: 0;
     }
