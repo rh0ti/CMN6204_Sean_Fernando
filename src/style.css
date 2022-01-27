@@ -46,7 +46,7 @@ header nav{
     position: relative;
     display: flex;
     justify-content: center;
-    z-index: 999;      
+    z-index: 999;   
 }
 
 header nav img{
@@ -151,6 +151,8 @@ ul li a{
     -webkit-transform:rotate(-45deg);
             transform:rotate(-45deg)  
 }
+
+
 
 /* Button to Top */
 
@@ -385,6 +387,22 @@ ul li a{
         position: absolute;
         bottom: -70px;
     }
+
+    header .language{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        font-family: 'Leonetta-Script';
+        font-size: 110px;
+        bottom: -60px;
+    
+    }
+
+    .language .en, .de{
+        height: 22px;
+        width: 22px;
+    }
+    
 
         /* ---------------------------------------------------- Splash Screen ----------------------------------------------------*/
 
@@ -998,7 +1016,7 @@ position: relative;
 
  #lyrics .text-meaning p{
     font-family: 'Fulgate-Light';
-    font-size: 35px;
+    font-size: 30px;
     color: black;
     font-weight: lighter;
     margin-top: 50px;

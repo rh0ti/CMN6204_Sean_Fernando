@@ -157,7 +157,7 @@ ul li a{
 #content{
     display: grid;
     grid-template-columns: 375px;
-    grid-template-rows: 600px 1600px 1800px 912px 220px 512px ;
+    grid-template-rows: 600px 1600px 1900px 912px 220px 512px ;
     grid-gap: 10px;
     max-width: 375px;
     margin: 0 auto;
@@ -757,7 +757,7 @@ position: relative;
     color: black;
     font-weight: lighter;
     margin-top: 50px;
-    margin-bottom: 1600px;
+    margin-bottom: 750px; 
     max-width: 345px;
     transition: 1s;
     opacity: 0;
