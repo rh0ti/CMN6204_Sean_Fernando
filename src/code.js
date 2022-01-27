@@ -67,6 +67,14 @@ $(document).ready(function(){
             $('.sidebar').toggleClass('active');
             $('.sidebarBtn').toggleClass('toggle');
         })
+
+        $('.sidebar a').click(function(){
+          //$(console.log) - Debug-Logs
+          $('.sidebar').toggleClass('active');
+          $('.sidebarBtn').toggleClass('toggle');
+    })
+
+        
     
     })
 
@@ -113,6 +121,7 @@ ScrollOut({
 
 $(function(){
   $(".de").click(function(){
+
     $('#about .about-text p').text('Sean Fernando ist am 19.05.1997 in Zürich geboren und ebenfalls in Zürich aufgewachsen. Die Musik hat ihn immer begleitet und ihm Kraft gegeben, speziell in schweren Zeiten hat sie ihn stärker gemacht. Sean liebt es, zu kochen, Videogames zu spielen und Quality Time mit seiner Familie zu verbringen. Er hat eine Schwäche für Champagner und gutes Essen.');
     $('#about .my-story .one').text('«Ich singe seit ich denken kann. Musik hat mich schon immer begeistert und es vergeht bei mir kein Tag ohne Musik.» -Sean Fernando-');
     $('#about .my-story .two').text('Sean ist halb Schweizer und halb Singhalese. Grossen Bezug zu seinen singhalesischen Wurzeln hat er nicht. Dies soll sich jedoch bald ändern, natürlich mit Hilfe von Musik.');
@@ -120,7 +129,6 @@ $(function(){
     $('#lyrics .text-meaning p').text('«Bye Bye» ist eine Hymne für jedes gebrochene Herz. Wenn dir jemand unrecht getan hat, dann sag Bye Bye. Was willst du machen? It is what it is! Die Beweggründe für diesen Song sind sehr persönlich. Es geht um einen Menschen, der Sean sehr nahe stand. Sean hat alles stehen und liegen lassen, um dieser Person in einer schweren Zeit beizustehen. Nachdem alles durchgestanden war und es wieder aufwärts ging, wurde Sean von dieser Person hintergangen. Zutiefst verletzt hat er «Bye Bye» geschrieben. Seinem Herzschmerz hat Sean mit diesem Song Ausdruck verliehen. Aber nicht nur das, er ermutigt seine Fans zudem, toxische Beziehungen hinter sich zu lassen, egal wie schmerzhaft es auf den ersten Blick erscheinen mag, und erhobenen Hauptes weiterzugehen. Das Leben ist zu kurz und zu wertvoll, um es an solche Menschen zu verschwenden. DU bist zu wertvoll um dich mit betrügerischen Menschen zu umgeben!');
 
   });
-
 
   
 });
@@ -133,5 +141,5 @@ $(function(){
     $('#about .my-story .three').text('To the question, what his goals are, he says: “My goals? Good question. I’m so close to achieving my goals and I’m lucky to be able to work with audio, whether it be as a singer, songwriter, producer or audio engineer, I can do it all.” ');
     $('#lyrics .text-meaning p').text('“Bye Bye” is a hymn for every single broken heart out there. If someone did you wrong, just say Bye Bye. What else can you do about it? It is what it is! The reason behind this song is very personal. It’s about a person, who was very close to Sean. He left everything aside to assist that person in an enormous difficult time. After the situation improved, that person betrayed Sean in the worst way possible. Left with a broken heart, Sean decided to write “Bye Bye”. This song does not only reflect Sean’s heart ache, but it also encourages his fans to leave toxic relationships behind, no matter how painful it might seem at that very moment, and move on with your life. Life is too short and precious to waste it on that kind of people. YOU are too precious to keep fraudulent people in your life!');
   });
-});
 
+});

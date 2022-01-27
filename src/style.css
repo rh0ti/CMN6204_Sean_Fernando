@@ -154,6 +154,7 @@ ul li a{
 
 
 
+
 /* Button to Top */
 
 #topBtn{
@@ -389,19 +390,53 @@ ul li a{
     }
 
     header .language{
-        height: 200px;
-        width: 200px;
         position: absolute;
-        font-family: 'Leonetta-Script';
-        font-size: 110px;
-        bottom: -60px;
+        font-size: 15px;
+        top: 23px;
+        right: 3%;
     
     }
 
     .language .en, .de{
-        height: 22px;
-        width: 22px;
+        color: white;
+        height: 20px;
+        width: 20px;
+        font-family: 'Fulgate';
+        font-weight: medium;
     }
+
+    .checkbox{
+        opacity: 0;
+        position: absolute;
+    }
+
+    .label{
+        background-color: #262626;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 26px;
+        width: 50px;
+        border-radius: 50px;
+        position: relative;
+    }
+
+    .ball {
+        height: 22px;
+        width: 23.2px;
+        background-color: #fff;
+        position: absolute;
+        border-radius: 50%;
+        top: 2px;
+        left: 2px;
+        transition: transform 0.2s linear ;
+
+    }
+
+    .checkbox:checked + .label .ball{
+        transform: translateX(24px);
+    }
+
     
 
         /* ---------------------------------------------------- Splash Screen ----------------------------------------------------*/
@@ -1376,14 +1411,22 @@ position: relative;
 }
     
 
-#stream .social-media span{
+#stream .social-media a{
     font-size: 10em; 
     color: black;
 }
 
+
+#stream .social-media a:hover i{
+    transform:scale(0.8);
+    transition: 1s;
+
+}
+
+
 @media screen and (max-width:1000px){ 
 
-    #stream .social-media span{
+    #stream .social-media a{
         font-size: 8em; 
         color: black;
     }
