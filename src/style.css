@@ -451,7 +451,6 @@ ul li a{
     /* background-color: green; */
     width: 100vw;
     height: 300px;
-    /* border: #000000 solid 1px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -653,7 +652,7 @@ ul li a{
 
 #about .about-text[data-scroll="in"]{
     opacity: 1;
-    transition-delay: 1s;
+    transition-delay: 1.2s;
 }
 
 
@@ -695,7 +694,7 @@ ul li a{
 
 #about .circle-text2[data-scroll="in"]{
     opacity: 1;
-    transition-delay: 1s;
+    transition-delay: 1.4s;
 }
     
 #about .circle-text-image{
@@ -1005,6 +1004,7 @@ position: relative;
     margin-top: 50px;
     margin-bottom: 50px;
     max-width: 80%;
+    display: block;
     transition: 1s;
     opacity: 0;
 }
