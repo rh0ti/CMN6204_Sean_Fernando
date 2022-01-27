@@ -486,13 +486,6 @@ header{
         flex-direction: column-reverse;
         height: 200px;
         width: 100%;
-        transition: 1s;
-        opacity: 0;
-    }
-    
-    #about .story-text[data-scroll="in"]{
-        opacity: 1;
-        transition-delay: 1s;
     }
     
      
@@ -1034,7 +1027,7 @@ position: relative;
 
 #stream .social-media[data-scroll="in"]{
     opacity: 1;
-    transition-delay: 1s;
+    transition-delay: 1.3s;
 }
 
 
