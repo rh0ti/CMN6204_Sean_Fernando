@@ -101,3 +101,8 @@ tl.to(".welcome-subtitle",{duration: 4.2, opacity: 0, ease: "slow"})
   .to(".name-subtitle",{duration: 2 ,opacity: 1 , ease: "slow"});
 
 
+//-------------------------------------------------------------- Transition ---------------------------------------------------------------//
+
+ScrollOut({
+  targets: 'h1,h2,figure,table,div,h3,p,a'
+})

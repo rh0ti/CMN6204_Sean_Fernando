@@ -340,6 +340,28 @@ header{
         position: relative;
     
     }
+
+
+    /* About Lines */
+
+    #about .line3{
+        height: 70px;
+        width: 1px;
+        background: #707070;
+        position: absolute;
+        top: -140%;
+        transition: 0.5s;
+        transform-origin:top;
+        transform: scaleY(0);
+    
+}
+
+    #about .line3[data-scroll="in"]{
+
+    transform: scaleY(1);
+
+    }
+    
     
     /* Title Name - About */
     
@@ -348,17 +370,13 @@ header{
         font-size: 38px;
         color: #000000;
         font-weight: lighter;
+        transition: 0.5s;
+        opacity: 0;
     }
     
-    /* About Lines */
-    
-   
-    #about .line3{
-        height: 70px;
-        width: 1px;
-        background: #707070;
-        position: absolute;
-        top: -140%;
+    #about .title h1[data-scroll="in"]{
+        opacity: 1;
+        transition-delay: 0.5s;
     }
     
 
@@ -371,7 +389,15 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-    }  
+        transition: 0.5s;
+        opacity: 0;
+    }
+    
+    #about .circle-text[data-scroll="in"]{
+        opacity: 1;
+        transition-delay: 0.6s;
+    }
+    
     
       #about .circle-text1{
         height: 250px;
@@ -412,8 +438,17 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        align-items: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    #about .about-text[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.5s;
+    }
     
-    }  
+    
 
     #about .line1{
         height: 60px;
@@ -422,8 +457,19 @@ header{
         position: absolute;
         top: 600px;
         left: 49.8%;
+        transition: 0.2s;
+        transform-origin:top;
+        transform: scaleY(0);
     
+}
+
+    #about .line1[data-scroll="in"]{
+
+    transform: scaleY(1);
+
     }
+    
+    
     
     #about .line2{
         display: none;
@@ -467,7 +513,8 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-    }  
+     }
+      
 
 
     
@@ -500,9 +547,13 @@ header{
         background-size: cover;
         position: absolute;
         top: 735px;
-    }    
-    
-    
+        transition: 0.5s;
+        opacity: 0;
+    }
+    #about .circle-image-big[data-scroll="in"]{
+        opacity: 1;
+        transition-delay: 0.7s;
+    }
     
     .my-story h2{
         font-family: 'Leonetta-Script';
@@ -514,7 +565,15 @@ header{
         margin-bottom: 20px;
         margin-left: 20px;
         margin-right: 20px;
+        transition: 0.5s;
+        opacity: 0;
     }
+    
+    .my-story h2[data-scroll="in"]{
+        opacity: 1;
+        transition-delay: 0.5s;
+    }
+    
     
 
     
@@ -523,7 +582,16 @@ header{
         font-size: 20px;
         font-display: block;
         max-width: 500px;
-    }
+        transition: 0.5s;
+        opacity: 0;
+}
+
+.my-story p[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+
+    
 
 /*--------------------------DESKTOP - Section Lyrics - Third Page ----------------------------- */
 
@@ -552,7 +620,15 @@ position: relative;
     font-weight: lighter;
     position: absolute;
     left: 3%;
+    transition: 0.5s;
+    opacity: 0;
 }
+
+#lyrics .title h1[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
 
 /* About Lines */
 
@@ -563,7 +639,18 @@ position: relative;
     position: absolute;
     top: 30px;
     left: 30%;
+    transition: 0.2s;
+    transform-origin: right;
+    transform: scaleX(0);
+
 }
+
+#lyrics .line1[data-scroll="in"]{
+
+    transform: scaleX(1);
+
+}
+
 
 
 #lyrics .text-lyrics{
@@ -580,7 +667,15 @@ position: relative;
     font-weight: lighter;
     color: #000000;
     margin-bottom: 50px;
+    transition: 0.5s;
+    opacity: 0;
 }
+
+.text-lyrics h1[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+
 
 .text-lyrics i{
     font-size: 0.5em;
@@ -601,8 +696,17 @@ position: relative;
     font-size: 20px;
     color: #000000;
     font-weight: medium;
-    width: 321px
+    width: 321px;
+    transition: 0.5s;
+    opacity: 0;
+    display:block;
 }
+
+.text-lyrics p[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+
 
 
 #lyrics .text-meaning{
@@ -618,8 +722,17 @@ position: relative;
     font-size: 60px;
     font-weight: lighter;
     color: #000000;
-    margin-top: 100px;
+    margin-top: 200px;
+    transition: 0.5s;
+    opacity: 0;
 }
+
+
+.text-meaning h1[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
 
  #lyrics .text-meaning p{
     font-family: 'Fulgate-Light';
@@ -629,9 +742,18 @@ position: relative;
     margin-top: 50px;
     margin-bottom: 1600px;
     max-width: 345px;
+    transition: 0.5s;
+    opacity: 0;
+    display:block;
+}
+
+#lyrics .text-meaning p[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.7s;
+}
     
 
-} 
+
 
    /*--------------------------DESKTOP - Section WORK - Fourth Page ----------------------------- */
 
@@ -649,6 +771,7 @@ height: 50px;
 display: flex;
 justify-content: flex-end;
 position: relative;
+margin-top: 50px;
 }
 
 /* Title Work DIV */
@@ -671,7 +794,18 @@ position: relative;
     position: absolute;
     top: 30px;
     left: 5%;
+    transition: 0.2s;
+    transform-origin: left;
+    transform: scaleX(0);
+
 }
+
+#work .line1[data-scroll="in"]{
+
+    transform: scaleX(1);
+
+}
+
 
 
 #work .songs{
@@ -690,7 +824,16 @@ position: relative;
     color: #000000;
     margin-top: 50px;
     margin-bottom: 50px;
+    transition: 0.5s;
+    opacity: 0;
 }
+
+.songs h1[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+
 
 .songs table {
     border-collapse: collapse;
@@ -700,7 +843,15 @@ position: relative;
     justify-content: center;
     align-items: center;
     /* border: #CB5353 solid 1px; */
-  }
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.songs table[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+  
   
   .songs th, td {
     font-size: 15px;
@@ -832,7 +983,15 @@ position: relative;
     font-weight: lighter;
     position: absolute;
     left: 3%;
+    transition: 0.5s;
+    opacity: 0;
 }
+
+#stream .title h1[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
 
 /* Stream Lines */
 
@@ -843,13 +1002,32 @@ position: relative;
     position: absolute;
     top: 30px;
     left: 33%;
+    transition: 0.2s;
+    transform-origin: right;
+    transform: scaleX(0);
+
 }
+
+#stream .line1[data-scroll="in"]{
+
+    transform: scaleX(1);
+
+}
+
 
 #stream .social-media{
     height: 100px;
     display: block;
     margin: 20px;
+    transition: 0.5s;
+    opacity: 0;
 }
+
+#stream .social-media[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+
 
 #stream .social-media span{
     font-size: 6.5em; 
