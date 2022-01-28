@@ -266,6 +266,19 @@ ul li a{
         flex-direction: column; 
     }
 
+    @media screen and (min-width:2560px) { 
+        header .image-frame-transparent{
+            background-color: rgba(226, 223, 223, 0.322);
+            width: 55%;
+            height: 70%;	
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+        }
+    }
+
+
     /*Second Transparent DIV */
 
     header .image-frame-grey{
