@@ -23,11 +23,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }, (idx + 1) * 50)
       })
       
-      },2800);
+      },3800);
 
       setTimeout(()=>{
         intro.style.top = '-100vh';
-      },3600)
+      },4600)
 
   })
 })
